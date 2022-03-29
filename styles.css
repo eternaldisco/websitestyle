@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+
+@font-face {
+    font-family: "Damn";
+    src: url(./DAMN.ttf);
+}
+body {
+    margin: 15px 150px;
+    background: linear-gradient(135deg, #F61067, #F5CCE8, white);
+}
+
+h1, h2 {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+}
+h1 {
+    margin-left: 30px;
+}
+
+div.main {
+    text-align: left;
+    padding: 30px;
+    margin: 20px 30px 20px 0;
+    border: solid 2px black;
+}
+.color ul {
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+.color li {
+    display: inline;
+    font-family: 'Roboto Mono', monospace;
+    padding: 40px 70px;
+    text-align: center;
+}
+.four-fonts {
+    display: flex;
+    font-size: 20px;
+    
+}
+#top-raw{
+    height: 80px;
+}
+#left {
+    margin-left: 50px;
+}
+.amarante {
+    font-family: "Amarante";
+    
+}
+.damn {
+    font-family: "Damn";
+    font-size: 26px; 
+}
+#color1 {
+    background-color: #F61067;
+}
+#color2 {
+    background-color: #DCCCA3;
+}
+#color3 {
+    background-color: #393E41;
+    color: white;
+}
+#color4 {
+    background-color: #7EA3CC;
+}
+#color5 {
+    background-color: #F5CCE8;
+}
+
+.font-name {
+  text-decoration: underline;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.nunito {
+    font-family: 'Nunito Sans';
+}
+.roboto {
+    font-family: 'Roboto Mono', monospace;
+    font-size: smaller;
+}
+
+#example{
+    margin-left: 0;
+}
+
+.text-style {
+    font-family: 'Nunito Sans';
+    font-size: 18px;
+}
+.damn #example{
+    font-size: large;
+}
+
+#font-size {
+    font-size: 24px;
+}
+
+.damn1 {
+    font-family: "Damn";
+    font-size: 34px;
+}
